@@ -1,0 +1,76 @@
+{
+  "id": "backstop-screenshot",
+  "viewports": [
+    {
+      "label": "iPhone X",
+      "width": 1125,
+      "height": 2436
+    },
+    {
+      "label": "iPhone 6 Plus/iPhone 6S Plus/iPhone 7 Plus/iPhone 8 Plus",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "label": "iPhone 6/iPhone 6S/iPhone 7/iPhone 8 ",
+      "width": 750,
+      "height": 1334
+    },
+    {
+      "label": "iPhone 5",
+      "width": 640,
+      "height": 1136
+    },
+    {
+      "label": "iPad Pro",
+      "width": 2048,
+      "height": 2732
+    },
+    {
+      "label": "iPad Air 1 & 2/iPad Third & Fourth Generation/iPad Mini 2 & 3",
+      "width": 1536,
+      "height": 2048
+    },
+    {
+      "label": "iPad Mini",
+      "width": 768,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "BackstopJS Homepage",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://garris.github.io/BackstopJS/",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "clickSelector": "",
+      "hoverSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/baseline_images",
+    "bitmaps_test": "backstop_data/latest_images",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineFlags": [],
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

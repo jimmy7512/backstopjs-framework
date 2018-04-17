@@ -1,0 +1,19 @@
+{
+  "name": "backstopjs-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "visual regression",
+    "backstopjs",
+    "diff"
+  ],
+  "author": "Jimmy Luu",
+  "license": "ISC",
+  "devDependencies": {
+    "backstopjs": "^3.2.12"
+  }
+}
