@@ -2,9 +2,9 @@
   "name": "backstopjs-framework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "test"
+    "test": "backstop --config=backstop.js test"
   },
   "keywords": [
     "visual regression",
