@@ -1,19 +1,22 @@
 {
-  "name": "backstopjs-framework",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "test": "backstop --config=backstop.js test"
-  },
-  "keywords": [
-    "visual regression",
-    "backstopjs",
-    "diff"
-  ],
-  "author": "Jimmy Luu",
-  "license": "ISC",
-  "devDependencies": {
-    "backstopjs": "^3.2.12"
-  }
+	"name": "backstopjs_framework",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "backstop --config=./config.js test"
+	},
+	"keywords": [
+		"visual regression",
+		"backstopjs",
+		"diff"
+	],
+	"author": "Jimmy Luu",
+	"license": "ISC",
+	"devDependencies": {
+		"asyncawait": "^1.0.7",
+		"babel-plugin-transform-object-rest-spread": "6.26.0",
+		"babel-plugin-transform-runtime": "6.23.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-import-export": "1.0.2",
+		"backstopjs": "^3.2.12"
+	}
 }
